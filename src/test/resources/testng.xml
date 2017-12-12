@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="theInternetTestNG.CheckboxesTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="theInternetTestNG.ForgotPasswordTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="theInternetTestNG.DynamicLoadingTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test3">
+		<classes>
+			<class name="theInternetTestNG.FramesTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test4">
+		<classes>
+			<class name="theInternetTestNG.JavaScriptAlertTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test5">
+		<classes>
+			<class name="theInternetTestNG.HoversTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test6">
+		<classes>
+			<class name="theInternetTestNG.DropDownTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test7">
+		<classes>
+			<class name="theInternetTestNG.DynamicControlTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test8">
+		<classes>
+			<class name="theInternetTestNG.BasicAuthTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
